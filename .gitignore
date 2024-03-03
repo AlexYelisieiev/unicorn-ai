@@ -59,7 +59,6 @@ cover/
 *.log
 local_settings.py
 *.sqlite3
-db.sqlite3
 db.sqlite3-journal
 
 # Flask stuff:
@@ -159,4 +158,3 @@ media/
 **/__pycache__
 .vscode
 migrations
-**/__pycache__
