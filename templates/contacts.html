@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block page_title %}Contacts{% endblock %}
+
+{% block body %}
+<a href="{% url 'home' %}">Go to Home</a>
+
+<h1>Contacts</h1>
+
+<div class="lft">
+    <div class="right" style="  float: left; z-index: 1; position: absolute;">
+        <img class="cloud1" src="#" alt="cloud"/>
+        <img class="star1" src="#" alt="star"/>
+        <img class="star5" src="#" alt="star"/>
+    </div> 
+        <img class="cloud2" src="#" alt="cloud"/>
+        <img class="star2" src="#" alt="star"/>
+        <img class="star3" src="#" alt="star"/>
+        <img class="star4" src="#" alt="star"/>
+</div>
+<div class="profile">   
+    <div class="contacts">
+        <div class="divc"><img class="imgc" src="#" alt="phone"><p class="pc">Phone: +38 (095) 777 77 77</p></div>
+        <div class="divc"><img class="imgc" src="#" alt="telegram"><p class="pc">Telegram: @motorny_s, @alex_yeliseiev, @marynahorshevska, @andruhagalynin</p></div>
+        <div class="divc"><img class="imgc" src="#" alt="email"><p class="pc">Email: marynahorshevska@gmail.com</p></div>
+    </div>
+</div>
+{% endblock body %}

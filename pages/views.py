@@ -41,3 +41,12 @@ class HomeView(View):
             return redirect("user_details", searched_username)
         else:
             return redirect("user_not_found")
+
+# Добавляем представления "about_us" и "contacts"
+class AboutUsView(View):
+    def get(self, request, *args, **kwargs):
+        return render(request, "about_us.html")
+
+class ContactsView(View):
+    def get(self, request, *args, **kwargs):
+        return render(request, "contacts.html")

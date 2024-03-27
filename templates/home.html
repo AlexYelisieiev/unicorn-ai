@@ -17,7 +17,8 @@
     {% endif %}
     {% else %}
     <span>Welcome to Unicorn AI! </span> <a href="{% url 'login' %}">Log in</a> | <a href="{% url 'signup' %}">Sign
-        up</a>
+        up</a> |
+         | <a href="{% url 'contacts' %}">Contacts</a>
     {% endif %}
 </nav>
 <p>Search profiles:</p>
@@ -26,4 +27,7 @@
     {{ user_search_form.as_p }}
     <button type="submit">Search</button>
 </form>
+
+
+
 {% endblock body %}
